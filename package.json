@@ -1,0 +1,23 @@
+{
+  "name": "react-webpack",
+  "version": "1.0.0",
+  "description": "Teste de um app react utilizando webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/davidalves1/react-webpack.git"
+  },
+  "keywords": [
+    "react",
+    "webpack"
+  ],
+  "author": "David Alves <alves.david@outlook.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
