@@ -1,3 +1,5 @@
-var hello = 'Hello React and Webpack!';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Home from './components/Home';
 
-console.log(hello);
+ReactDOM.render(<Home />, document.getElementById('app'));
