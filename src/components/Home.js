@@ -1,3 +1,9 @@
 import React from 'react';
-const Home = () => <h1>Hello React and Webpack!</h1>
+
+const newStyle = {
+	textAlign: 'center'
+}
+
+const Home = () => <h1 style={newStyle}>Hello React and Webpack!</h1>
+
 export default Home;
